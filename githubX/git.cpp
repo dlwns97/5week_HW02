@@ -47,11 +47,11 @@ int main(void)
 {
 	int i = 0;
 	int n = MAX_SIZE;
-	int list[10] = { 10,20,3,4,6,30,2,8,1,44 };
+	int list[11] = { 10,20,3,4,6,30,2,8,1,44,55 };
 
-	Merge_Sort(list, 0, 9);;
+	Merge_Sort(list, 0, 10);
 
-	for (; i <= 9;)
+	for (; i <= 10;)
 		cout << list[i++] << " ";
 	cout << endl;
 
